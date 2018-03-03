@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "simple node ecommerce site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "*",
+    "mongoose": "^5.0.7",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.1"
+  },
+  "author": "john muchiri",
+  "license": "ISC"
+}

@@ -1,0 +1,37 @@
+<%- layout('layout')%>
+
+<div class="container">
+
+hello  <%= user.profile.name %>
+
+<div class="row" >
+  <div class="col-sm-6-md-4">
+  
+<img class="img-circle img-center" src="<%= user.profile.name %>" alt="">
+<br/>
+
+<p>Name: <%= user.profile.name %> </p>
+<p>Email: <%= user.email %> </p>
+
+
+<%if (user.adress ===""|| typeof user.address ==='undefined'){%>
+<p>Address:<span>you have no address</span>  </p>
+<%}  else { %>
+
+<p>Address:<%= user.address %>  </p>
+
+<%   }   %>
+
+<a href ="/editprofile" class="btn btn-primary btn-lg">Edit Profile</a>
+
+
+  </div>
+
+
+
+</div>
+
+
+
+
+</div>
